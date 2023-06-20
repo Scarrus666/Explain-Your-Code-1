@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css"> 
+
+    <!--
+        1. Erstelle einen neuen CSS Ordner in deinem Projektordner
+        1. In diesem Order erstellst du nun ein neues style.css Dokument
+        2. Verlinke es hier selbständig in den HTML head 
+        HINT: Relative Path.
+        Wenn du dokumente in einem Ordern verlinken möchtest, muss der Pfad mit dem Ordner-Namen beginnen "/js/mein-dokumen.js".
+    -->
+
+    <title>Mein Titel</title>
+  </head>
+  <body>
+    <h1 id="title1">Code verstehen und erklären</h1>
+
+    <!--
+        1. Füge unter diesem Kommentar hier den passenden Tag für einen langen Text (Pargraph) ein.
+        2. Schreibe in kurzen Sätzen warum du Programmier werden möchtest.
+    -->
+
+    <p class="textblock">Ich möchte Programmierer werden weil ich schon als kleiner Kind Spass an Computer hatte und ich seit damals herausfinden wollte wie Computer, Software und Games eigentlich "drinnen" aussehen und funktionieren.</p>
+
+    <h2 id="title2">Was habe ich bisher gelernt?</h2>
+    <!--
+        1. Erstelle eine Liste (ordered List)
+        2. Liste mindesten 3 bis 4 Dinge auf die du letzten Wochen gelernt hast (Stichworte).
+    -->
+
+      <ol>
+        <li>Ich verstehe langsam wie Javascript funktionert.</li>
+        <li>Flowcharts/Flussdiagramme können sehr nützlich sein, besonders bei "grösseren" Projekten.</li>
+        <li>Verschiedene Sachen die komplex sind und die für die normalerweise JS die Lösung wäre sind schon in HTML vorgelöst und kann daraus die Lösung genommen werden. </li>
+      </ol>
+
+    <h2 id="title3">Kleiner Wissenstest | Was ist der HTML DOM?</h2>
+    <!--
+        1. Füge hier erneut den Tag für einen Text ein (Paragraph).
+        2. Erkläre nun deinen Worten, was der HTML DOM ist. Du darfst natürlich auch im Internet recherchieren. (natürlich innerhalb des Paragraph-Tags) 
+        3. Suche im Web ein passendes Bild für den HTML DOM z.B. ein DOM Struktur Diagramm.
+        4. Erstelle einen Ordner mitizen was der Unteschied ist, auch wieder in einem Pragraph-Tag. // Image Ordner erstellen, Image einfügen, hier darstellen.
+    -->
+
+    <p class="textblock">Der DOM ist eine standardisierte Programmierschnittstelle, sie erlaubt es von JS, CSS oder HTML direkt aus auf z.b. Elemente ganz einfach, auch aus verschiedene Dateien aus zuzugreifen.</p>
+    <p class="textblock">Hier ist DOM Struktur Diagramm der die Beziehungen der verschiedene Elemente innerhalb des DOMs listet.<br/></p>
+
+
+    <img src="./IMAGE/img_htmltree.gif">
+
+    <!--
+        1. Bei jedem Titel (headings , h-tags) eine ID hinzufügen (keine id darf zweimal vorkommen natürlich).
+        2. Füge bei allen Pargraph-Tags einen Class-Tag hinzu, bennen klasse textblock
+        3. Style dein Dokument max 5 min. lang, verwende die IDs und die class dafür (definiere es im CSS/style.css).
+    -->
+
+    <!-- 
+        Hier möchten wir weiteren Script hinzufügen
+        1. Füge ein Script Tag hinzu.
+        2. Style dein Dokument ein wenig mit JavaScript um. ".style"
+        3. Welche "get" Methode kannst du für die Klasse verwenden?
+
+
+        Beispiel: Ändere mit JavaScript die Farbe der Texte oder den Hintergrund, ändere die Schriftgrösse oder ordne die Elemente anders an.
+    -->
+
+    <script>
+
+      // Dies hier ist eine Möglichkeit
+
+      document.getElementById("title1").style.color = "blue";
+      document.getElementById("title2").style.color = "red";
+
+
+      // Dies hier eine zweite
+
+      var title1 = document.getElementById("title3");
+      title3.style.color = "aqua";
+
+
+      // Hier muss ein Loop erstellt werden
+
+      var textblock = document.getElementsByClassName("textblock");
+
+      for (var i = 0; i < textblock.length; i++)
+        {
+          textblock[i].style.color = "grey";
+        }
+
+      console.log(document);
+
+    </script>
+  </body>
+</html>

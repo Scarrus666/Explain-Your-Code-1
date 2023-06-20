@@ -1,0 +1,46 @@
+img
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+#title1
+{
+    background-color:beige;
+    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#title2
+{
+    background-color:antiquewhite;
+    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#title3
+{
+    background-color:brown;
+    color: white;
+    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.textblock
+{
+    background-color:aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
